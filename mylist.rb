@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class MyList
   include Enumerable
   def initialize(*elements)

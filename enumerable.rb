@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Enumerable
   def all?(&block)
     each { |item| return false unless block.call(item) }
